@@ -27,12 +27,12 @@ swapValuesDude('Virat', 'Anushka');
 swapValuesDude('1000','2000');
 
 
-console.log('**********This is the Third step**************');
+console.log('**********This is the fourth step**************');
 function addThreeValues(value1,value2,value3){
     var sum=value1+value2+value3;
     return sum;
 }
 var result=addThreeValues(10.23,600,40);
 console.log(result);
-var result=addThreeValues('Hello','Good','Morning');
+var result=addThreeValues('Hello',' Good',' Morning');
 console.log(result);
