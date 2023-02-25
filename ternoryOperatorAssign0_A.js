@@ -1,13 +1,11 @@
 console.log("******First step*****");
 function greaterNumber(n1,n2){
-         console.log( (n1>n2) ? `greater no is ${n1}`:`greater no is ${n2}`);
-       
+         var result= (n1>n2) ? n1:n2;
+         console.log(`Greatest number amongst ${n1}, ${n2} is : ${result}`);      
 }
-console.log(`Between 10 and -10 :`);
 greaterNumber(10,-10)
-console.log(`Between 800 and 899 : `);
-
 greaterNumber(800,899);
+
 
 console.log("******Second step*****");
 
