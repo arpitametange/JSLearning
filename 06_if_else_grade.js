@@ -25,11 +25,11 @@ voteEligibility(null);
 
 console.log('****************second step***************');
 function gradeCalculation(marks){
-    if(marks<=0 || marks > 100 || (typeof marks!= "number") || marks==null|| marks==undefined  || marks!=marks){
+    if(marks<=0 || marks > 100 || (typeof marks!= "number")  || isNaN(marks)){
         console.log(`Please provide the valid marks - ${marks}`);
     }
     
-    if (marks>=90 && marks<=100 && (typeof marks== "number")){
+    if (marks>=90 && marks<=100 ){
         console.log(`Fantastic marks: ${marks}, Your grade is A+`);
     }
     if (marks>=75 && marks<90 ) {
