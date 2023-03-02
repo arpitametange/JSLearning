@@ -18,7 +18,7 @@ function stringHandsOn() {
   console.log(
     'first and last character ',
     trimstr.charAt(0),
-    trimstr.charAt(trimstr.length - 1),
+    trimstr.charAt(trimstr.length-1),
   )
 
   console.log('****************This is the sixth step**************')
