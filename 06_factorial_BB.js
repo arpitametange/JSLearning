@@ -1,22 +1,22 @@
 function factorialofWordsCount(word) {
     if (word==null || word==undefined || word==NaN   ) {
         console.log(`${word} is not the string, we cant find the factorial of it's total words`);
+        return NaN
     }
     else if(word==""){
-           console.log(`"" is an empty string, we cant find the factorial of it`);
-    }
+        console.log(`"" is an empty string, we cant find the factorial of it`);
+        return NaN
+ }
     else{
-    count=1
-    factorial=1
-    for (let index = 0; index < word.length; index++) {
-     var wordl=word.charAt(index)
-        if (wordl==" ") {
-            count=count+1;
-            factorial=factorial*count
+        count=0
+        factorial=1
+        if (s=word.split(" ")) {
+            for (let index = 0; index < s.length; index++) {
+                count=count+1;
+                factorial=factorial*count
+                }  
         }
-      
-    }
-    return factorial
+        return factorial
 }
 }
 let word1=factorialofWordsCount("Revision is the mother of Success");
@@ -27,9 +27,11 @@ console.log(`"We never fail, we always learn" = The total number of words presen
 console.log("---------------------------------------------------------------------------------------------------");
 
 let word3=factorialofWordsCount(null);
+console.log(`The factorial of null is ${word3}`);
 console.log("---------------------------------------------------------------------------------------------------");
 
 let word4=factorialofWordsCount("");
+console.log(`The factorial of empty string  is ${word3}`);
 console.log("---------------------------------------------------------------------------------------------------");
 
 let word5=factorialofWordsCount("Arpita Vilas Metange");
