@@ -4,8 +4,6 @@ function  stringBasics(){
 stringBasics()
 
 function sumofchr(myHobby1,myHobby2,myHobby3){
-    console.log(myHobby1,myHobby2,myHobby3);
-
     var sum=myHobby1.length+myHobby2.length+myHobby3.length;
     return sum;
 }
