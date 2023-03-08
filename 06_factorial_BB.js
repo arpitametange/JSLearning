@@ -1,5 +1,5 @@
 function factorialofWordsCount(word) {
-    if (word==null || word==undefined || word==NaN   ) {
+    if (word==null || word==undefined || word==NaN ) {
         console.log(`${word} is not the string, we cant find the factorial of it's total words`);
         return NaN
     }
@@ -8,8 +8,8 @@ function factorialofWordsCount(word) {
         return NaN
  }
     else{
-        count=0
-        factorial=1
+         count=0
+          factorial=1
         if (s=word.split(" ")) {
             for (let index = 0; index < s.length; index++) {
                 count=count+1;

@@ -1,4 +1,4 @@
-let arrayOfNumbers = [ 0, 2, 4, 5, 8, 4, 0, 8];
+var arrayOfNumbers = [ 0, 2, 4, 5, 8, 4, 0, 8];
 console.log(arrayOfNumbers);
 // console.table(arrayOfNumbers);
 const totalArrayElements =  arrayOfNumbers.length;
@@ -26,6 +26,8 @@ arrayOfNumbers[3] = 35;
 console.log(arrayOfNumbers);
 arrayOfNumbers1[1]=50;
 console.log(arrayOfNumbers1);
+
+
 
 
 var arrayOfNumbers3 = [ 10, 20, 25, 15, 30, 5];
@@ -112,3 +114,23 @@ console.log("=====splice() to replace one elements ====================");
 var arrayOfNumbersi = [ 10, 20, 25, 15, 40, 45];
 arrayOfNumbersi.splice(2, 2 ,50,60);
 console.log(arrayOfNumbersi);
+
+
+console.log("===== Traversing  ====================");
+var arrayOfNumbers9 = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+for (let index = 0; index < arrayOfNumbers9.length; index++) {
+    const element = arrayOfNumbers9[index];
+    console.log(element);
+    
+}
+
+
+console.log("===== Traversing  ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+let sum = 0; // 10
+for (let index = 0; index < arrayOfNumbers.length; index++) {//1
+    const element = arrayOfNumbers[index];
+   sum = sum + element;// sum = 0 + 20
+    // console.log(element);
+}
+console.log(`Sum of an Array element is: ${sum}`);
