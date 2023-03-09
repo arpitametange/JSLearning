@@ -63,9 +63,9 @@ console.log(`8) Sum of the all elements present in the array ${sum}`);
 /////////////////////////////Numbers which is the multiple of 5/////////////////////////////////////////
 let arrayfive=[ ]
 for (let index = 0; index < arrayNumbers.length; index++) {
-    const element6 = arrayNumbers[index];
-    if (element6%5==0) {
-        arrayfive.push(element6)
+    const element = arrayNumbers[index];
+    if (element%5==0) {
+        arrayfive.push(element)
     }
 }
 console.log(`9) Numbers which are the multiple of 5 is = ${arrayfive}`);
