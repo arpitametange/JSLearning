@@ -8,11 +8,10 @@ let student={
         street:"some",
         PIN:34,
         city:"pune",
-
     },
     friends:["bill","stev","elon"],
     show:function () {
-        console.log('hsoqw');
+        console.log('show');
     },
     addressDetails: function(){
         return `Address is: Street ${this.address.street}, City ${this.address.city}, PIN ${this.address.PIN}`

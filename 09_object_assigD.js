@@ -6,12 +6,12 @@ let professor={
     number:8933849929,
     address:"samara nagar",
     state:"Maharashtra",
-    country:"India",  
+    country:"India" 
 }
 console.log("***********************Properties added to the object ******************************");
 console.log(professor);
 console.log("***********************Nested object 'degrees' added to the object******************************");
-professor. degrees={
+professor.degrees={
     engineering:"CSC",
     PHD:"Adv Computing"
 }
