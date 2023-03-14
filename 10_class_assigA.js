@@ -159,7 +159,7 @@ console.log(
 console.log('The given number is 11')
 function name1(num) {
   for (let index = 2; index < num; index++) {
-    if (num % index===0) {
+    if (num % index==0) {
     return `11 is not a prime number`
     
   }
