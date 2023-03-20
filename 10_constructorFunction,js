@@ -7,7 +7,7 @@ function Person(fullName, city){
 }
 Person.prototype.country = "India";
 
-const dhoni = new Person("MS Dhoni", "Ranchi");10
+const dhoni = new Person("MS Dhoni", "Ranchi");
 dhoni.show();
 console.log(dhoni.country);
 
