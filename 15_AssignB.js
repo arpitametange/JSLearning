@@ -18,54 +18,48 @@ const emp_mahi= new Employee(99,"Mahesh","HR",85000,"Infy")
 
 let array_employees=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi]
 console.log("**************** 1) Employees working in TCS*************");
-for (let index=0; index<array_employees.length; index++) {
-    let element=array_employees[index]
-    if (element.emp_company=='TCS') {
-        console.log(`Employee name: ${element.emp_name}, Company name: ${element.emp_company}`);
+for (let index of array_employees) {
+    if (index.emp_company=='TCS') {
+        console.log(`Employee name: ${index.emp_name}, Company name: ${index.emp_company}`);
     }
 }
 
 console.log("**************** 2) Finance Department's Employees*************");
 
-for (let index=0; index<array_employees.length; index++) {
-    const element = array_employees[index];
-    if (element.emp_dept=="Finance") {
-        console.log(`Department : ${element.emp_dept}, Employee name: ${element.emp_name}`);
+for (let index of array_employees) {
+    if (index.emp_dept=="Finance") {
+        console.log(`Department : ${index.emp_dept}, Employee name: ${index.emp_name}`);
         
     }
     
 }
 
 console.log("**************** 3) Employees whose name start with 'R' *************");
-for (let index=0; index<array_employees.length; index++) {
-    const element = array_employees[index];
-    if (element.emp_name.startsWith("R")) {
-        console.log(element);
+for (let index of array_employees) {
+    if (index.emp_name.startsWith("R")) {
+        console.log(index);
     }
 }
 
 console.log("**************** 4) Employees whose salary greater than 75000 *************");
-for (let index=0; index<array_employees.length; index++) {
-    const element = array_employees[index];
-    if (element.emp_salary>75000) {
-        console.log(`Employee name: ${element.emp_name}, Company name: ${element.emp_company}, Salary: ${element.emp_salary}`);
+for (let index of array_employees) {
+    if (index.emp_salary>75000) {
+        console.log(`Employee name: ${index.emp_name}, Company name: ${index.emp_company}, Salary: ${index.emp_salary}`);
     }
     
 }
 
 console.log("**************** 5) Employees whose salary greater than  equal to 50000 *************");
-for (let index=0; index<array_employees.length; index++) {
-    const element = array_employees[index];
-    if (element.emp_salary>=50000 && element.emp_dept=="IT") {
-        console.log(element);
+for (let index of array_employees) {
+    if (index.emp_salary>=50000 && index.emp_dept=="IT") {
+        console.log(index);
     }
 }
 
 console.log("**************** 6) Employees from 'Infy' *************");
-for (let index=0; index<array_employees.length; index++) {
-    const element = array_employees[index];
-    if (element.emp_company=="Infy") {
-        console.log(element);
+for (let index of array_employees) {
+    if (index.emp_company=="Infy") {
+        console.log(index);
     }
     
 }
