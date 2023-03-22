@@ -16,13 +16,13 @@ const emp_viny= new Employee(88,"Vinayaka","IT", 75000, "TCS")
 const emp_mahi= new Employee(99,"Mahesh","HR",85000,"Infy")
 
 let mapEmployees=new Map()
-mapEmployees.set(emp_anil.emp_id,emp_anil)
-mapEmployees.set(emp_radha.emp_id,emp_radha)
-mapEmployees.set(emp_rishi.emp_id,emp_rishi)
-mapEmployees.set(emp_sonali.emp_id,emp_sonali)
-mapEmployees.set(emp_monika.emp_id,emp_monika)
-mapEmployees.set(emp_viny.emp_id,emp_viny)
-mapEmployees.set(emp_mahi.emp_id,emp_mahi)
+mapEmployees.set(22,emp_anil)
+mapEmployees.set(33,emp_radha)
+mapEmployees.set(55,emp_rishi)
+mapEmployees.set(66,emp_sonali)
+mapEmployees.set(77,emp_monika)
+mapEmployees.set(88,emp_viny)
+mapEmployees.set(99,emp_mahi)
 
 console.log("***********************Log Employees Id and details with help of for each************************");
 mapEmployees.forEach(function(element){

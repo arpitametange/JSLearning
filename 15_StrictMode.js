@@ -11,7 +11,7 @@ person = {  // Not allowed to define an object without var, let and const
 
 'use strict'
 //myName = "Virat"; // Not allowed
-let myName = "Virat";
+// let myName = "Virat";
 console.log(myName);
 // delete myName; //  Not allowed
 
