@@ -25,7 +25,7 @@ mapEmployees.set(88,emp_viny)
 mapEmployees.set(99,emp_mahi)
 
 console.log("***********************Log Employees Id and details with help of for each************************");
-mapEmployees.forEach(function(element){
-    console.log(`${element.emp_id} ===> Name: ${element.emp_name}, Department: ${element.emp_dept}, Company: ${element.emp_company}, Salary: ${element.emp_salary}`);
+mapEmployees.forEach(function(element,value){
+    console.log(`${value} ===> Name: ${element.emp_name}, Department: ${element.emp_dept}, Company: ${element.emp_company}, Salary: ${element.emp_salary}`);
 })
 
