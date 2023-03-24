@@ -15,9 +15,8 @@ const emp_monika= new Employee(77,"Monika","IT",40000,"Wipro")
 const emp_viny= new Employee(88,"Vinayaka","IT", 75000, "TCS")
 const emp_mahi= new Employee(99,"Mahesh","HR",85000,"Infy")
 
-
-
 let array_employees=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi]
+
 console.log("*******************List of all employees names**********************");
 let mapMethod=array_employees.map(element =>{
     return element.emp_name
