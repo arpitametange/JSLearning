@@ -19,10 +19,13 @@ const emp_mahi= new Employee(99,"Mahesh","HR",85000,"Infy")
 let array_employees=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi]
 console.log("***************************All employees from the 'TCS'****************************");
 let empTcs=array_employees.filter((element)=> {
-    if (element.emp_company=="TCS") {
-        console.log(`Company Name: ${element.emp_company}, Employee Name: ${element.emp_name}`);  
-    } 
+  return  element.emp_company=="TCS"
 })
+empTcs.forEach(element=>{
+    console.log(`Company Name: ${element.emp_company}, Employee Name: ${element.emp_name}`);  
+  })
+
+
 console.log("*************************Average salary of employee from company Wipro****************************");
 let average2;
 let avrg=array_employees.filter(element=> {
