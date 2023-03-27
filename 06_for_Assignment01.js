@@ -38,6 +38,6 @@ for (let index = 10; index<=100 ; index=index+10) {
 
 console.log("7. WAP to print table of 10 in reverse order like == 100 90 80 ...10");
 for (let index = 100; index>=10 ; index=index-10) {
-    console.log(index);;
+    console.log(index);
     
 }

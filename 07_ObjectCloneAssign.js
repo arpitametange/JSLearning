@@ -49,3 +49,4 @@ console.log(`Updated property of salary: ${deepClonedEmp.salary.july_month}`);
 employee_info.address.country="United Kingdom"
 console.log(`Updated the property "country" on original object - country:${employee_info.address.country}`);
 
+
