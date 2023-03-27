@@ -33,20 +33,19 @@ let avrg=array_employees.filter(element=> {
 })
 
 let reduce=avrg.reduce((element,value)=>{
-     return element.emp_salary+value.emp_salary
-})
-average2=reduce/avrg.length
-console.log(average2);
+     return element+value.emp_salary
+},0)
+
+console.log(reduce/avrg.length);
 
 console.log("****************Average salary of employee from companies Wipro and Infy ********************");
-let average;
+
 let newarray=array_employees.filter((element)=>{
     return element.emp_company=="Wipro" || element.emp_company=="Infy"
 })
-let sum=0
-newarray.forEach((element)=>{
-   return sum=sum+element.emp_salary
-})
 
-average=sum/newarray.length
-console.log(average);
+let reduce2=newarray.reduce((emp1,emp2)=>{
+    return emp1+emp2.emp_salary
+},0)
+
+console.log(reduce2/newarray.length);
