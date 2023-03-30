@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button type="button" id="checkNo">Check no is prime or not</button>
+
+    <script>
+        console.log("**************Check whether no is prime or not****************");
+        let prime=document.querySelector("#checkNo")
+        prime.addEventListener("click", ()=>{
+        let no=prompt("Enter the no",0)
+        function p(n) {
+            for (let index = 2; index < n; index++) {
+                if (n%index==0) {
+                    return `${n} is Not Prime`
+                }
+                }
+                return `${n} is Prime`
+
+            }
+            let result=p(no)
+           alert(result)
+        })
+    </script>
+</body>
+</html>
