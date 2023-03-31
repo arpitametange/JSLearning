@@ -14,7 +14,10 @@
         console.log("****************Hobbies******************");
         event.addEventListener("click" ,() =>{
            let add=prompt("Enter the hobbies","hobbies")
-           console.log(add);
+           let element=document.createElement("li")
+           let textNode=document.createTextNode(add)
+           element.appendChild(textNode)
+           event.appendChild(element)
         })
     </script>
 </body>
