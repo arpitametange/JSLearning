@@ -14,8 +14,13 @@
         console.log("**************Check whether no is prime or not****************");
         let prime=document.querySelector("#checkNo")
         prime.addEventListener("click", ()=>{
-        let no=prompt("Enter the no",0)
-        function p(n) {
+        let no=prompt("Enter the no","default")
+        let number=+no
+        if (typeof number=="string" || isNaN(number) || no==null || number<0) {
+            alert("invalid no")
+        } 
+        else {
+            function p(n) {
             for (let index = 2; index < n; index++) {
                 if (n%index==0) {
                     return `${n} is Not Prime`
@@ -24,9 +29,11 @@
                 return `${n} is Prime`
 
             }
-            let result=p(no)
+            let result=p(number)
            alert(result)
-        })
+        }})
+    
+       
     </script>
 </body>
 </html>
