@@ -1,4 +1,4 @@
-function  stringBasics(){
+funngBasics(){
     console.log("My dream company's name: TCS");
 }
 stringBasics()

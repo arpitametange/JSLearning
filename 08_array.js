@@ -57,11 +57,6 @@ console.log("==== slice(startIndex, endIndex) === ");
 const subArray = arrayOfNumbers3.slice(2, 5);
 console.log(subArray);
 
-
-
-
-
-
 console.log("============================");
 var arrayOfNumbers3 = [ 10, 20, 25, 15, 40, 45];
 console.log("==== splice(startIndex) === ");

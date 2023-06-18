@@ -1,4 +1,4 @@
-const mapOfNumbers = new Map();
+ const mapOfNumbers = new Map();
 mapOfNumbers.set("One", 1);
 mapOfNumbers.set("Two", 2);
 mapOfNumbers.set("Three", 3);

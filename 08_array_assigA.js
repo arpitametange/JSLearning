@@ -34,5 +34,5 @@ console.log(`Element from index 1 to 4  = ${arraylogelement}`);
 
 console.log("**********************Eighth step = Select the last three element and log on console**************************");
 console.log(arraySeasonalFruits);
-let arrayLastlog=arraySeasonalFruits.splice(arraySeasonalFruits.length-3)
+let arrayLastlog=arraySeasonalFruits.slice(arraySeasonalFruits.length-3)
 console.log(`Last three elements in the array = ${arrayLastlog}`);

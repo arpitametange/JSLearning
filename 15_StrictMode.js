@@ -3,7 +3,7 @@
 let myName = "Virat";
 console.log(myName);
 
-person = {  // Not allowed to define an object without var, let and const
+ let person = {  // Not allowed to define an object without var, let and const
     firstName: "Virat",
     lastName: "Kohli",
     age : 33
