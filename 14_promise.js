@@ -14,3 +14,6 @@ promiseForNotes.then( function(success) {
 }).finally(function(){
     console.log("You should have always have your notes...");
 });
+
+
+

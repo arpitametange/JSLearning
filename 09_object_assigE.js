@@ -37,7 +37,7 @@ hdfcBank.showDetails()
 let yesBank={
     bankName:"Yes bank",
     location:"mumbai",
-    accountNo:03030,
+    accountNo:9803030,
     ifsc:21243232,
     interestRate:12,
     showDetails:function () {
