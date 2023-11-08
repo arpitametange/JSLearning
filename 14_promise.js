@@ -7,6 +7,7 @@ let promiseForNotes = new Promise( function(resolve, reject){
     }
 });
 
+
 promiseForNotes.then( function(success) {
     console.log(success, "I got the notes let me read it.....");
 }).catch( function(failure) {

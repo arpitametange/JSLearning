@@ -12,7 +12,7 @@ console.log('Find the last character');
 var charAtLastIndex=greet.charAt(greetLength-1);
 console.log('Last char is:',charAtLastIndex);
 
-console.log('Find the index by characterr value');
+console.log('Find the index by character value');
 var indexOfM=greet.indexOf('M');
 console.log("Index of char M is:",indexOfM);
 
